@@ -1,0 +1,190 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+:root{
+
+    --bg-color:var(--bg-color) #550091;
+    --tex-color: #000000;
+    --main-color: #ccff00;
+    --other-color: white;
+    --h1-font: 4rem;
+    --p-font: 1rem;
+
+}
+
+body{
+
+    background-color: #550091;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+
+    
+}
+
+.backgroundwallpaper{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 700px;
+    top: 250px;
+    right: 0px;
+    
+}
+
+.Logo{
+
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    
+}
+
+.Logo:hover{
+
+    transform: translateY(-5px);
+
+}
+
+header{
+
+    background-color: #550091;
+    position: fixed;
+    width: 100%;
+    top: -15px;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 3%;
+
+}
+
+.navegação{
+
+    display: flex;
+
+}
+
+.navegação a{
+
+    color: var(--other-color);
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 100px;
+    transition: all .55s ease;
+
+}
+
+.navegação a:hover{
+
+    color: var(--main-color);
+
+}
+
+#menu{
+
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    color: white;
+
+}
+
+.header-icons{
+
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.header-icons i{
+
+    margin-right: 25px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: all .5s ease;
+
+}
+
+.header-icons i:hover{
+
+    transform: translateY(-5px);
+    color: var(--main-color);
+
+}
+
+.hall{
+
+    margin-top: 200px;
+    margin-left: 100px;
+    line-height: 200px;
+    font-size: 50px;
+    position: absolute;
+    transition: all .5s ease;    
+
+}
+
+.hall:hover{
+
+    color: #ccff00;
+
+}
+
+.hall-1{
+
+    padding-top: 800px;
+    padding-left: 120px;
+    line-height: 0px;
+    font-size: 25px;
+    position: absolute;
+    transition: all .5s ease;    
+
+}
+
+.hall-1:hover{
+
+    color: #cd0b0b;
+
+}
+
+.button-1{
+  
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 400px;
+    padding: 20px;
+    font-size: 35px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #ccff00;
+    color: #550091;
+    transition:.3s;
+
+}
+
+.button-1:hover{
+
+    background-color: #ccff00b2;
+    color: #c573ff;
+
+}
+
+.button-1:active{
+
+    background-color: #ccff0047;
+    color: #efdaff;
+
+}
